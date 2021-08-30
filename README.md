@@ -10,10 +10,10 @@ Topics include:
 - (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). 
 - (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI). 
 
-<br/>
-
 In this repository I include my solutions to the MATLAB exersies on the course. Below are a two examples of my solutions:
 <br/>
+<br/>
+
 
 ### 1. Linear Regression
 
@@ -24,13 +24,17 @@ In this part of this exercise, I implemented linear regression with one variable
 
 <img src="https://user-images.githubusercontent.com/72145252/131322454-a591789f-2541-48d4-8ce5-4a264df40ff4.png" width="600" height="400">
 
-<img src="https://user-images.githubusercontent.com/72145252/131322705-2c519173-617c-4bef-9c53-2f6b73752a6f.png" width="800" height="400">
-
-<br/>
 <br/>
 
-### 4. Linear Regression
+### 3. Multi-class Classification
+
+For this exercise, I use logistic regression and neural networks to recognize handwritten digits (from 0 to 9). 
+
+**Problem description:** Automated handwritten digit recognition is widely used today - from recognizing zip codes (postal codes) on mail envelopes to recognizing amounts written on bank checks. This exercise will show you how the methods you've learned can be used for this classication task. In the first part of the exercise, you will extend your previous implemention of logistic regression and apply it to one-vs-all classification.
 
 <img src="https://user-images.githubusercontent.com/72145252/131326518-49f7629e-6099-4bd1-b101-517f8c7fc47b.png" width="500" height="400">
+
+![image](https://user-images.githubusercontent.com/72145252/131327750-22884e0c-0cc3-4e87-bf16-5f00fac942a8.png) ![image](https://user-images.githubusercontent.com/72145252/131327789-078fc849-9039-4314-a854-a0bdf204ff5e.png)
+
 
 

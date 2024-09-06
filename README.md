@@ -72,7 +72,7 @@ This repository includes MATLAB solutions for the following topics:
 
 ## Requirements
 
-- MATLAB (The version used for these assignments is R20XXx)
+- MATLAB
 - MATLAB's Neural Network Toolbox (for certain assignments)
 
 ## Contributing

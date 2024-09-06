@@ -1,40 +1,86 @@
-## Machine learning
+# Machine Learning Course Solutions
 
-This is my completed machine learning assigments for the free online course "Machine Learning" by Andrew Ng. 
-The course is available at this link: [Coursera - Machine Learning](https://www.coursera.org/learn/machine-learning?).
-This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition.
-<br/>
-<br/>
-Topics include: 
-- (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). 
-- (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). 
-- (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI). 
+## Overview
 
-In this repository I include my solutions to the MATLAB exersies on the course. Below are a two examples of my solutions:
-<br/>
-<br/>
+This repository contains my completed assignments for the free online course "Machine Learning" by Andrew Ng, offered on Coursera. The course provides a comprehensive introduction to machine learning, data mining, and statistical pattern recognition.
 
+## Course Link
+
+[Coursera - Machine Learning](https://www.coursera.org/learn/machine-learning)
+
+## Course Topics
+
+The course covers a wide range of machine learning topics, including:
+
+1. **Supervised Learning**
+   - Parametric/non-parametric algorithms
+   - Support vector machines
+   - Kernels
+   - Neural networks
+
+2. **Unsupervised Learning**
+   - Clustering
+   - Dimensionality reduction
+   - Recommender systems
+   - Deep learning
+
+3. **Best Practices in Machine Learning**
+   - Bias/variance theory
+   - Innovation process in machine learning and AI
+
+## Repository Contents
+
+This repository includes MATLAB solutions for the following topics:
+
+1. Linear Regression
+2. Logistic Regression
+3. Multi-Class Classification and Neural Networks
+4. Neural Network Learning
+5. Regularized Linear Regression and Bias/Variance
+6. Support Vector Machines
+7. K-Means Clustering and Principal Component Analysis
+8. Anomaly Detection and Recommender Systems
+
+## Featured Solutions
 
 ### 1. Linear Regression
 
-In this part of this exercise, I implemented linear regression with one variable to predict profits for a food truck. 
-<br/><br/>
-**Problem description:** Suppose you are the CEO of a restaurant franchise and are considering different cities for opening a new outlet. The chain already has trucks in various cities and you have data for profits and populations from the cities. You would like to use this data to help you select which city to expand to next.
+**Problem**: Predict profits for a food truck franchise based on city population data.
+
+**Scenario**: As the CEO of a restaurant franchise, you need to decide which city to expand to next. You have data on profits and populations from existing locations.
+
+**Implementation**: Single-variable linear regression to model the relationship between population and profit.
+
+### 2. Multi-class Classification
+
+**Problem**: Recognize handwritten digits (0 to 9) using logistic regression and neural networks.
+
+**Application**: This technique is widely used in automated systems for recognizing zip codes on mail envelopes and amounts on bank checks.
+
+**Implementation**: 
+- Extended logistic regression for one-vs-all classification
+- Neural network approach for improved accuracy
+
+## How to Use This Repository
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/eshaq95/Machine_learning.git
+   ```
+2. Navigate to the specific assignment folder.
+3. Open the MATLAB files to view the solutions and implementations.
+
+## Requirements
+
+- MATLAB (The version used for these assignments is R20XXx)
+- MATLAB's Neural Network Toolbox (for certain assignments)
+
+## Contributing
+
+While this repository primarily contains personal course solutions, suggestions for improvements or bug fixes are welcome. Please open an issue to discuss proposed changes.
 
 
-<img src="https://user-images.githubusercontent.com/72145252/131322454-a591789f-2541-48d4-8ce5-4a264df40ff4.png" width="600" height="400">
+## Acknowledgments
 
-<br/>
-
-### 3. Multi-class Classification
-
-For this exercise, I use logistic regression and neural networks to recognize handwritten digits (from 0 to 9). 
-
-**Problem description:** Automated handwritten digit recognition is widely used today - from recognizing zip codes (postal codes) on mail envelopes to recognizing amounts written on bank checks. This exercise will show you how the methods you've learned can be used for this classication task. In the first part of the exercise, you will extend your previous implemention of logistic regression and apply it to one-vs-all classification.
-
-<img src="https://user-images.githubusercontent.com/72145252/131326518-49f7629e-6099-4bd1-b101-517f8c7fc47b.png" width="500" height="400">
-
-![image](https://user-images.githubusercontent.com/72145252/131327750-22884e0c-0cc3-4e87-bf16-5f00fac942a8.png) ![image](https://user-images.githubusercontent.com/72145252/131327789-078fc849-9039-4314-a854-a0bdf204ff5e.png)
-
-
-
+- Andrew Ng and the Coursera team for creating this excellent course
+- The online machine learning community for additional resources and discussions
